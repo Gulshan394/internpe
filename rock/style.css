@@ -1,0 +1,37 @@
+body {
+    background-color: #FFF9c9;
+   
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+  }
+  
+  button {
+    display: inline-block;
+    align-items: center;
+    background-color: #008000;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .result {
+    margin-top: 20px;
+    font-size: 20px;
+  }
